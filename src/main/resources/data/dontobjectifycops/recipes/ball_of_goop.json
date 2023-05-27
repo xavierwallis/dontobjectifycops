@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "ball_of_goop",
+  "ingredients" : [
+    {
+      "item" : "dontobjectifycops:dirt_ball"
+    },
+    {
+      "item" : "minecraft:sand"
+    },
+    {
+      "item" : "minecraft:water_bucket"
+    }
+
+  ],sa
+  "result" : {
+    "item" : "dontobjectifycops:ball_of_goop",
+    "count" : 69
+  }
+}
