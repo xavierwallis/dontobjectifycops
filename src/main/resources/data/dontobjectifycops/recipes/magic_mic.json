@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern" : [
+    " # ",
+    " # ",
+    "B#B"
+  ],
+  "key" : {
+    "#" : {
+      "item": "minecraft:dirt"
+    },
+    "B" : {
+      "item": "dontobjectifycops:dirt_ball"
+    }
+  },
+  "result" : {
+    "item" : "dontobjectifycops:magic_mic"
+  }
+}
