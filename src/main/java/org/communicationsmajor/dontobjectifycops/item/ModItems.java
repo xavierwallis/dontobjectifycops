@@ -33,7 +33,7 @@ public class ModItems {
                             .tab(CreativeModeTab.TAB_FOOD)
                             .stacksTo(13)
                             .food((new FoodProperties.Builder()).nutrition(12).saturationMod(2.0f).build())
-                            .durability(24)
+
             )
     );
 

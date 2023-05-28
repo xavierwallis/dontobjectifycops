@@ -37,6 +37,7 @@ public class MagicMicItem extends Item {
     }
     @Override
     public @NotNull InteractionResult useOn(UseOnContext context) {
+        if ( !context.getLevel().isClientSide() || context.getHand().equals(InteractionHand.OFF_HAND)) { return super.useOn(context); }
         BlockPos block = context.getClickedPos();
         Level level = context.getLevel();
         Entity entity;
@@ -50,9 +51,7 @@ public class MagicMicItem extends Item {
             context.getPlayer().displayClientMessage(Component.nullToEmpty("I want this cow to step on me UGH please step on me i just want it to fucking step on me all over all sexy like please"), false);
             entity.moveTo(block.getX(), block.getY() + 1, block.getZ());
         }
-
         level.addFreshEntity(entity);
-
         return super.useOn(context);
     }
 }

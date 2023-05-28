@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures": {
+    "all": "dontobjectifycops:block/cum_block"
+  }
+}
